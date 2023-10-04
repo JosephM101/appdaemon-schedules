@@ -60,10 +60,10 @@ In the above example, you might have noticed that the `minute` variable was miss
 ### 12-hour time parameters:
 | Parameter name | Optional | Default value | Description |
 | --- | --- | --- | --- |
-| `hour`     | <i> False </i>   |     | An hour value (1 to 12)
+| `hour`     | <i> False </i> |     | An hour value (1 to 12)
 | `minute`   | <i> True  </i> | `0` | A minute value (0 to 59)
 | `second`   | <i> True  </i> | `0` | A second value (0 to 59)
-| `meridiem` | <i> False </i>   |     | AM/PM
+| `meridiem` | <i> False </i> |     | AM/PM
 
 
 
