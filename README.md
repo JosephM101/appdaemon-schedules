@@ -20,7 +20,7 @@ NOTE: This applet is not currently in HACS' default repository, so it needs to b
   - Click `Add`
 - If the repository was added successfully, you should see it in the dialog. At this point, you can close the dialog.
 - Back in the `Automation` section of `HACS`, click on the `Explore & Download Repositories` button in the bottom-right corner of the page.
-- In the dialog that appears, type `schedules` in the search bar, click on the result that appears, and click the `Download` button. At this point, it should be just like installing a regular HACS addon. 
+- In the dialog that appears, type `schedule` in the search bar, click on the result that appears, and click the `Download` button. At this point, it should be just like installing a regular HACS addon. 
 
 ### Manual install (no updates)
 - Download this repository, and copy the "schedule" folder to "appdaemon/apps".
