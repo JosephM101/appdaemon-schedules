@@ -6,6 +6,7 @@ Originally written for controlling an irrigation system, but can be used to cont
 - Download this repository, and copy the "schedule" folder to "appdaemon/apps".
 - Add your configuration to `apps.yaml` using one of the examples below.
 
+    This repo is not currently in HACS. Maybe a future endeavor?
 
 ## Example `apps.yaml` configuration
 ```yaml
