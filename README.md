@@ -1,4 +1,4 @@
-# appdaemon-schedule
+# appdaemon-schedules
 A simple scheduler for Home Assistant/AppDaemon.
 Originally written for controlling an irrigation system, but can be used to control anything with a binary on/off function.
 
@@ -15,7 +15,7 @@ NOTE: This applet is not currently in HACS' default repository, so it needs to b
 - In HACS, click `Automation`.
 - At the top-left, click the three dots, and in the menu that appears, click `Custom repositories`.
 - In the dialog that appears, do the following:
-  - Paste this repo's URL (https://github.com/JosephM101/appdaemon-schedule) in the `Repository` box
+  - Paste this repo's URL (https://github.com/JosephM101/appdaemon-schedules) in the `Repository` box
   - Select `AppDaemon` from the `Category` drop-down menu.
   - Click `Add`
 - If the repository was added successfully, you should see it in the dialog. At this point, you can close the dialog.
