@@ -11,6 +11,14 @@ I wrote this because I couldn't find a library/applet for Home Assistant that wa
 
 
 ## Usage
+
+```yaml
+my_schedules:
+  module: schedule
+  class: Schedule
+  schedules: # ...
+```
+
 ### Example `apps.yaml` configuration
 ```yaml
 # Irrigation system
