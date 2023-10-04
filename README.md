@@ -6,7 +6,26 @@ I wrote this because I couldn't find a library/applet for Home Assistant that wa
 
 
 ## Install
+
+### Install using HACS
+NOTE: This applet is not currently in HACS' default repository, so it needs to be added as a custom repository.
+
+<b>To add this repo to HACS, follow these instructions:</b>
+- In your Home Assistant dashboard, click on `HACS` in the left-hand panel.
+- In HACS, click `Automation`.
+- At the top-left, click the three dots, and in the menu that appears, click `Custom repositories`.
+- In the dialog that appears, do the following:
+  - Paste this repo's URL (https://github.com/JosephM101/appdaemon-schedule) in the `Repository` box
+  - Select `AppDaemon` from the `Category` drop-down menu.
+  - Click `Add`
+- If the repository was added successfully, you should see it in the dialog. At this point, you can close the dialog.
+- Back in the `Automation` section of `HACS`, click on the `Explore & Download Repositories` button in the bottom-right corner of the page.
+- In the dialog that appears, type `schedule` in the search bar, click on the result that appears, and click the `Download` button. At this point, it should be just like installing a regular HACS addon. 
+
+### Manual install (no updates)
 - Download this repository, and copy the "schedule" folder to "appdaemon/apps".
+
+
 - Add your configuration to `apps.yaml` by modifying one of the examples below to fit your needs. Once you add the configuration, the module will be enabled.
 
 
