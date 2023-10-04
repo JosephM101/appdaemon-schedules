@@ -1,4 +1,4 @@
-# Schedule
+# appdaemon-schedule
 A simple scheduler for Home Assistant/AppDaemon.
 Originally written for controlling an irrigation system, but can be used to control anything with a binary on/off function.
 
