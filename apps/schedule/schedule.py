@@ -94,20 +94,19 @@ class ScheduleEntity():
         else:
             self.print_log(f"Not turning entity \"{self.target_entity}\" off: conditions not met")
 
-
     def turn_on(self):
         self._turn_on({"entity": self.target_entity})
     
     def turn_off(self):
         self._turn_off({"entity": self.target_entity})
 
-
-    def _turn_on(self, kwargs):
+    # Internal functions
+    def _turn_on(self, kwargs): # Pass entity to change to kwarg 'entity'
         entity = kwargs["entity"]
         self.print_log(f"Turning {entity} on")
         self.hass.call_service("homeassistant/turn_on", entity_id=entity)
 
-    def _turn_off(self, kwargs):
+    def _turn_off(self, kwargs): # Pass entity to change to kwarg 'entity'
         entity = kwargs["entity"]
         self.print_log(f"Turning {entity} off")
         self.hass.call_service("homeassistant/turn_off", entity_id=entity)
